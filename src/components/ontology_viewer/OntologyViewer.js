@@ -30,6 +30,11 @@ export default () => {
                     reactflow
                 </a>
             </p>
+            <p>
+                <a href="https://reactflow.dev/docs/examples/edges/floating-edges/" target="_blank">
+                    Хороший пример
+                </a>
+            </p>
             <div>
                 <Button disabled={loading} onClick={() => loadOntology(setOntology, setLoading)}>
                     <span>Тест загузки json онтологии</span>
