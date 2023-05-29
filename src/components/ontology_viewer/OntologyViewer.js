@@ -33,7 +33,9 @@ export default () => {
             </p>
             <div>
                 <Button disabled={loading} onClick={() => loadOntology(setOntology, setLoading)}>
-                    <span>Тест загузки json онтологии</span>
+                    <span>
+                        Тестовая отрисовка онтологии (пока только иерархические связи и связи между темами и УТЗ)
+                    </span>
                     {loading ? <Spinner className="ms-1" size="sm" /> : null}
                 </Button>
             </div>
